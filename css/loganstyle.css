@@ -11,10 +11,6 @@ img {
 	object-fit: contain;
 }
 
-iframe {
-	border: none;
-}
-
 #contact {
 	active: false;
 }
