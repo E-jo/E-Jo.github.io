@@ -1,0 +1,168 @@
+/*  Logan Dyer website
+	by Eric Joest, Jan 2023
+*/
+
+body {
+	background-color: #FFFFFF;	
+}
+
+img {
+	width: 100%;
+	object-fit: contain;
+}
+
+#contact {
+	active: false;
+}
+
+.pic1-wrapper {
+	float: right;
+	display: block;
+	width: 49.25%;
+	margin-bottom: 1%;
+}
+
+.pic2-wrapper {
+	display: block;
+	width: 49.25%;
+	margin-bottom: 1%;
+}
+
+.pic3-wrapper {
+	display: block;
+	width: 100%;
+	margin-bottom: 5%;
+}
+
+.audio-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.paragraph-wrapper {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5%;
+}
+	
+.banner {
+	border-bottom: solid 0.05em;
+	padding-bottom: .5em;
+	margin-bottom: .5em;
+}
+
+.wide-pic {
+	display: block;
+	width: 100%;
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+}
+
+header {
+	font-family: Georgia, "Times New Roman", sans-serif;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+nav {
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	list-style-type: none;
+	margin: 0.4em;
+	padding: 0.5em;
+	display: inline;
+}
+
+nav li a {
+	color: #808080;
+	text-decoration: none;
+}
+
+nav li a:link {
+	color: #808080;
+}
+
+
+main {
+	display: block;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	font-size: 1em;
+	margin-top: 0.2em;
+	padding: 0.5em;
+}
+
+footer {
+	font-size: .1.5em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
+/* Media query for tablet/small desktop window  
+	Adds whitespace to sides and hover to menu
+*/
+@media only screen and (min-width: 600px) {
+
+	main {
+		padding-top: 2em;
+		padding-left: 10em;
+		padding-right: 10em;
+	}
+	
+	header {
+		padding-left: 5em;
+		padding-right: 5em;
+		padding-top: 1em;
+		padding-bottom: .5em;
+	}
+	
+	.banner {
+		border-bottom: solid 0.1em;	
+		padding-bottom: 1em;			
+	}
+	
+	nav li a:hover {
+		color: #000000;
+		font-size: 1.1em;
+	}
+}
+
+/* media query for desktop viewport 
+@media only screen and (min-width: 1700px) {
+	main {
+		padding-top: 2em;
+		padding-left: 15em;
+		padding-right: 15em;
+	}
+	
+	header {
+		padding-left: 10em;
+		padding-right: 10em;
+		padding-top: 1em;
+		padding-bottom: .5em;
+	}
+	
+}
+*/
+	
