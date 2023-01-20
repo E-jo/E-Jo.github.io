@@ -44,6 +44,11 @@ img {
 	text-align: center;
 	margin-bottom: 5%;
 }
+
+.paragraph-wrapper p {
+	padding-left: 4em;
+	padding-right: 4em;
+}
 	
 .banner {
 	border-bottom: solid 0.05em;
@@ -148,7 +153,8 @@ a:active, a:focus {
 	}
 }
 
-/* media query for desktop viewport 
+/* media query for desktop viewport -- might not use
+
 @media only screen and (min-width: 1700px) {
 	main {
 		padding-top: 2em;
