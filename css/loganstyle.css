@@ -124,6 +124,11 @@ a:active, a:focus {
   -moz-outline-style: none;
 }
 
+nav li a:hover, a:active {
+	color: #000000;
+	font-size: 1.1em;
+}
+
 /* Media query for tablet/small desktop window  
 	Adds whitespace to sides and hover to menu
 */
@@ -147,10 +152,6 @@ a:active, a:focus {
 		padding-bottom: 1em;			
 	}
 	
-	nav li a:hover {
-		color: #000000;
-		font-size: 1.1em;
-	}
 }
 
 /* media query for desktop viewport -- might not use
