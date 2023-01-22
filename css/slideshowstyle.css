@@ -47,6 +47,12 @@ img {
 	scroll-behavior: smooth;
 	box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 	border-radius: 0.5rem;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
 }
 
 .slider img {
@@ -66,8 +72,8 @@ img {
 }
 
 .slider-nav a {
-	width: 0.5rem;
-	height: 0.5rem;
+	width: 1.0rem;
+	height: 1.0rem;
 	border-radius: 50%;
 	background-color: #fff;
 	opacity: 0.75;
