@@ -6,6 +6,10 @@ body {
 	background-color: #FFFFFF;	
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 img {
 	width: 100%;
 	object-fit: contain;
