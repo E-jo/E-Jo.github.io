@@ -136,7 +136,7 @@ nav li a:hover, a:active {
 /* Media query for tablet/small desktop window  
 	Adds whitespace to sides and hover to menu
 */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
 
 	main {
 		padding-top: 2em;
