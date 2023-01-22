@@ -160,7 +160,7 @@ nav li a:hover, a:active {
 }
 
 /* media query for desktop viewport -- might not use
-
+*/
 @media only screen and (min-width: 1700px) {
 	main {
 		padding-top: 2em;
@@ -176,5 +176,5 @@ nav li a:hover, a:active {
 	}
 	
 }
-*/
+
 	
