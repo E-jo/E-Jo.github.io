@@ -134,7 +134,7 @@ nav li a:hover, a:active {
 }
 
 
-/* Media query for tablet/small desktop window  
+/* Media query for tablet  
 	Adds whitespace to sides
 */
 @media only screen and (min-width: 650px) {
