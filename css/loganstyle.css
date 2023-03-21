@@ -109,7 +109,7 @@ nav li {
 	display: inline;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 350px) {
 	nav li {
 		list-style-type: none;
 		margin: 0.2em;
