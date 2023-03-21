@@ -35,10 +35,21 @@ img {
 .pic3-wrapper {
 	display: block;
 	width: 100%;
+	margin-bottom: 1.5%;
+}
+
+.pic4-wrapper {
+	display: block;
+	width: 100%;
 	margin-bottom: 5%;
 }
 
 .audio-wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+.video-wrapper {
 	width: 100%;
 	text-align: center;
 }
