@@ -76,6 +76,11 @@ img {
 	width: 100%;
 }
 
+.top_row {
+	margin-bottom: .8em;
+}
+
+
 #container {
 	width: 100%;
 	margin-left: auto;
